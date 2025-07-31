@@ -108,12 +108,17 @@ Make sure to put the project in the same folder as given, so you don’t need to
 <img width="1341" height="665" alt="image" src="https://github.com/user-attachments/assets/24a8176e-d4fc-403a-a649-9b6f94d3ee89" />
 
 ### By the way, you can try on your own! A lot of hidden function in my project for you to explore
-
+### If you have any question on how to launch it, I am willing to help, you can email me anytime :
 ```text
-Regards,
-Project Leader
-Seh.C.S
+seh.chunshiang@gmail.com
 ```
+
+Regards,
+
+Project Leader
+
+Seh.C.S
+
 
 
 
