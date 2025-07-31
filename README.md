@@ -2,10 +2,9 @@
 
 In Malaysia, online shopping has changed the way people buy things compared to the traditional way. Big companies like Shopee and Lazada are becoming more popular every year.
 
-While I was studying at University Tunku Abdul Rahman(UTAR), I learned how to use WampServer and decided to build an online shopping web application to practice and improve my coding skills. I used Wampserver that involving **HTML**, **PHP**, and **MySQL** to create this project and gain more hands-on experience in web development.
+While I was studying at University Tunku Abdul Rahman (UTAR), I learned how to use WampServer and decided to build an online shopping web application to practice and improve my coding skills. I used Wampserver that involving **HTML**, **PHP**, and **MySQL** to create this project and gain more hands-on experience in web development.
 
 ---
-## 🖼️ 
 
 ## 🚀 Features
 
@@ -110,9 +109,11 @@ Make sure to put the project in the same folder as given, so you don’t need to
 
 ### By the way, you can try on your own! A lot of hidden function in my project for you to explore
 
+```text
 Regards,
 Project Leader
 Seh.C.S
+```
 
 
 
