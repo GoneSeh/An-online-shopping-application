@@ -1,10 +1,8 @@
-#  UTARBABA – An online shopping application
+#  An online shopping application
 
 In Malaysia, online shopping has changed the way people buy things compared to the traditional way. Big companies like Shopee and Lazada are becoming more popular every year.
 
 While I was studying at University Tunku Abdul Rahman, I learned how to use WampServer and decided to build an online shopping web application to practice and improve my coding skills. I used Wampserver that involving HTML, PHP, and MySQL to create this project and gain more hands-on experience in web development.
-
-**UTARBABA** is a fully functional web application built with **PHP** and **MySQL**, designed to simulate an online ordering system. It includes shopping cart features, feedback submission, and a basic product listing interface. This project demonstrates practical use of procedural PHP, SQL integration, and frontend design using HTML/CSS.
 
 ---
 
@@ -28,4 +26,12 @@ While I was studying at University Tunku Abdul Rahman, I learned how to use Wamp
 ---
 
 ## 📁 Project Structure
+
+utarbaba/
+├── cart/ # Shopping cart and order submission logic
+├── contact/ # Feedback/contact form
+├── homePage/ # Homepage and main UI layout
+├── images/ # UI image assets
+├── index.php # Main entry page
+├── database.sql # MySQL database schema and structure
 
