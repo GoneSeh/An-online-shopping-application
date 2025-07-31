@@ -28,10 +28,17 @@ While I was studying at University Tunku Abdul Rahman, I learned how to use Wamp
 ## 📁 Project Structure
 
 utarbaba/
+
 ├── cart/ # Shopping cart and order submission logic
+
 ├── contact/ # Feedback/contact form
+
 ├── homePage/ # Homepage and main UI layout
+
 ├── images/ # UI image assets
+
 ├── index.php # Main entry page
+
 ├── database.sql # MySQL database schema and structure
+
 
