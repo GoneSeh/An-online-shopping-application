@@ -1,0 +1,82 @@
+:root {
+    --blue-dark: #0d47a1;
+    --blue-main: #1976d2;
+    --blue-light: #e3f2fd;
+    --white: #ffffff;
+    --gray-border: #ccc;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #000;
+    margin: 0;
+    padding-top: 25px;
+    background-image: url('../images/contactPageBackground.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .contact-container {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: var(--white);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-container h1,
+  .feedback-form h2 {
+    color: var(--blue-dark);
+    text-align: center;
+  }
+  
+  .contact-info p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .feedback-form {
+    margin-top: 30px;
+  }
+  
+  .feedback-form label {
+    display: block;
+    margin-bottom: 6px;
+    color: var(--blue-dark);
+    font-weight: bold;
+  }
+  
+  .feedback-form input,
+  .feedback-form textarea {
+    width: 95%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid var(--gray-border);
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  
+  .feedback-form textarea {
+    height: 120px;
+    resize: vertical;
+  }
+  
+  .feedback-form button {
+    background-color: var(--blue-main);
+    color: var(--white);
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .feedback-form button:hover {
+    background-color: var(--blue-dark);
+  }
+  

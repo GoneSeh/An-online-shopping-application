@@ -1,0 +1,117 @@
+:root {
+  --blue-dark: #0d47a1;
+  --blue-main: #1976d2;
+  --blue-light: #e3f2fd;
+  --text-dark: #1c1c1c;
+  --white: #ffffff;
+  --border-color: #bbdefb;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: var(--text-dark);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: auto;
+  width: 80%;
+  max-width: 1200px;
+}
+
+.pageTitle {
+  margin-top: 20px;
+  padding: 20px;
+  border-bottom: 3px solid var(--blue-main);
+  background-color: var(--blue-light);
+  border-radius: 8px;
+}
+
+.pageTitle h1 {
+  color: var(--blue-dark);
+  font-size: 24px;
+  margin: 0;
+}
+
+#dishSection .itemType {
+  margin: 20px 0;
+  text-align: center;
+}
+
+#dishSection .itemType {
+  background-color: var(--blue-main);
+  color: var(--white);
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+#dishSection button:hover {
+  background-color: var(--blue-dark);
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+.item {
+  background-color: var(--white);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.item:hover {
+  transform: translateY(-5px);
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: var(--blue-dark);
+}
+
+.price {
+  font-size: 16px;
+  color: var(--blue-main);
+  margin-top: 5px;
+}
+
+#Add {
+  background: linear-gradient(to right, var(--blue-main), #2196f3);
+  color: #e3f2fd;
+  border: 2px solid #1976d2;
+  padding: 12px 24px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 12px rgba(25, 118, 210, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+#Add:hover {
+  background: linear-gradient(to right, #1565c0, var(--blue-dark));
+  color: #ffffff;
+  box-shadow: 0 6px 18px rgba(13, 71, 161, 0.4);
+  transform: translateY(-2px);
+}

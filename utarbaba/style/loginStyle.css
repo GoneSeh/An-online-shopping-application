@@ -1,0 +1,79 @@
+:root {
+  --blue-dark: #0d47a1;
+  --blue-main: #1976d2;
+  --blue-light: #e3f2fd;
+  --input-border: #bbdefb;
+  --white: #ffffff;
+  --gray-border: #ccc;
+}
+
+.loginBox, .signupBox {
+  width: 300px;
+  margin: 40px auto;
+  padding: 25px;
+  background-color: var(--blue-light);
+  border: 1px solid var(--input-border);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.login h2, .signup h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--blue-dark);
+}
+
+.login label, .signup label {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--blue-dark);
+  font-weight: 600;
+}
+
+.login input[type="email"],
+.login input[type="password"],
+.signup input[type="text"],
+.signup input[type="email"],
+.signup input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid var(--gray-border);
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.login input[type="submit"],
+.signup input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: var(--blue-main);
+  color: var(--white);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.login input[type="submit"]:hover,
+.signup input[type="submit"]:hover {
+  background-color: var(--blue-dark);
+}
+
+.login p, .signup p {
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+}
+
+.login a, .signup a {
+  color: var(--blue-main);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.login a:hover, .signup a:hover {
+  text-decoration: underline;
+}

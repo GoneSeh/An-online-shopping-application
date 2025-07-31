@@ -1,0 +1,125 @@
+:root {
+    --blue-dark: #0d47a1;
+    --blue-main: #1976d2;
+    --blue-light: #e3f2fd;
+    --gray-border: #ccc;
+    --white: #ffffff;
+    --light-gray: #f2f2f2;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: var(--light-gray);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .cartBox, .payBox {
+    background-color: var(--white);
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .pageTitle {
+    border-bottom: 1px solid var(--gray-border);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .pageTitle h3 {
+    color: var(--blue-dark);
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--gray-border);
+  }
+  
+  .cart-item img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+  
+  .cart-item-details {
+    flex-grow: 1;
+  }
+  
+  .cart-item-details h4 {
+    margin: 0;
+    color: var(--blue-dark);
+  }
+  
+  .cart-item-details p {
+    margin: 5px 0;
+    color: #444;
+  }
+  
+  .cart-item-controls {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart-item-controls input[type="number"] {
+    width: 60px;
+    margin-right: 10px;
+    padding: 6px;
+    border: 1px solid var(--gray-border);
+    border-radius: 5px;
+  }
+  
+  .cart-item-controls button {
+    padding: 6px 12px;
+    background-color: var(--blue-main);
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cart-item-controls button:hover {
+    background-color: var(--blue-dark);
+  }
+  
+  .payBox h3 {
+    color: var(--blue-dark);
+    margin-bottom: 15px;
+  }
+  
+  .payBox select,
+  .payBox input[type="submit"] {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid var(--gray-border);
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .payBox input[type="submit"] {
+    background-color: var(--blue-main);
+    color: var(--white);
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .payBox input[type="submit"]:hover {
+    background-color: var(--blue-dark);
+  }
+  
+  .clearfix {
+    clear: both;
+    font-size: 1px;
+  }
+  

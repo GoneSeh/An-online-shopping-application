@@ -1,0 +1,101 @@
+:root {
+  --blue-dark: #0d47a1;
+  --blue-main: #1976d2;
+  --blue-light: #e3f2fd;
+  --text-color: #1c1c1c;
+  --white: #ffffff;
+}
+
+/* General Body Styles */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: var(--white);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.homePage {
+  margin: auto;
+  width: 90%;
+  max-width: 1200px;
+  padding-top: 60px; /* for fixed header */
+}
+
+/* Slideshow */
+.slideshow {
+  width: 100%;
+  max-height: 500px;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.slideshow img {
+  width: 100%;
+  height: auto;
+  display: none;
+  animation: fade 1s ease-in-out;
+}
+
+/* Article Content */
+article {
+  margin-top: 40px;
+  padding: 30px;
+  border-top: 4px solid var(--blue-main);
+  background-color: var(--blue-light);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+h1 {
+  font-size: 32px;
+  color: var(--blue-dark);
+  margin-bottom: 20px;
+  animation: slideInFromLeft 0.6s ease-out;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 1.2em;
+}
+
+/* Slideshow fade animation */
+@keyframes fade {
+  from { opacity: 0.3; } 
+  to { opacity: 1; }
+}
+
+/* Homepage title animation */
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .homePage {
+    width: 95%;
+    padding-top: 80px;
+  }
+
+  article {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
