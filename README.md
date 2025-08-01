@@ -41,7 +41,7 @@ utarbaba/
 ## 🚀 How to Run This Project
 ### 1. Clone or Download
 ```bash
-git clone https://github.com/yourusername/utarbaba.git
+git clone https://github.com/GoneSeh/utarbaba.git
 ```
 ### 2. Set Up Local Server
 - Install WampServer : https://wampserver.aviatechno.net/
