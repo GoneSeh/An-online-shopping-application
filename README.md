@@ -56,6 +56,7 @@ a. Open phpMyadmin
 http://localhost/phpmyadmin/
 ```
 OR
+
 b. Open HeidiSQL
 - Login into your MySQL database
 - Create a new database (e.g. utarbaba)
@@ -98,10 +99,10 @@ Make sure to put the project in the same folder as given, so you don’t need to
 ## Search Button
 <img width="995" height="319" alt="image" src="https://github.com/user-attachments/assets/c2ed4666-04b0-4f13-8090-2427ecdb009d" />
 
-## Selected Item page from Shopping Menu 
+## Selected Item page
 <img width="1339" height="662" alt="image" src="https://github.com/user-attachments/assets/493ce3a0-760d-4ecd-ad22-8b84db32adc9" />
 
-## Amount of item button to cart
+## Amount of item button
 <img width="1335" height="654" alt="image" src="https://github.com/user-attachments/assets/6a6e9a86-5f96-4796-aa6a-9d755e8b6bd5" />
 
 ## Payment Page
